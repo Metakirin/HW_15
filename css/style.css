@@ -1,0 +1,15 @@
+.resume .alert {
+  display: none;
+}
+
+.resume.invalid input:invalid {
+  border-color: rgba(207, 24, 24, 0.815);
+}
+
+.resume.invalid textarea {
+  border-color: rgba(207, 24, 24, 0.815);
+}
+
+.resume.invalid input:invalid ~ .alert {
+  display: block;
+}
